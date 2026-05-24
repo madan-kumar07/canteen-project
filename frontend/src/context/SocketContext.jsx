@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import { useApp } from './AppContext';
 
 const SocketContext = createContext(null);
-const BACKEND = `http://${window.location.hostname}:5000`;
+const BACKEND = import.meta.env.VITE_WS_URL || `http://${window.location.hostname}:5000`;
 
 export function SocketProvider({ children }) {
   const { dispatch, toast } = useApp();

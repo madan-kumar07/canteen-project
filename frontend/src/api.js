@@ -1,5 +1,5 @@
 const HOST = window.location.hostname;
-const BASE = `http://${HOST}:5000/api`;
+const BASE = import.meta.env.VITE_API_URL || `http://${HOST}:5000/api`;
 
 async function req(path, opts = {}, retries = 2) {
   const ctrl = new AbortController();
