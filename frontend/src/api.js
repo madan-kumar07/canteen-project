@@ -3,7 +3,7 @@ const BASE = import.meta.env.VITE_API_URL || `http://${HOST}:5000/api`;
 
 async function req(path, opts = {}, retries = 2) {
   const ctrl = new AbortController();
-  const tid  = setTimeout(() => ctrl.abort(), 15000);
+  const tid  = setTimeout(() => ctrl.abort(), 60000);
   try {
     const res = await fetch(`${BASE}${path}`, {
       headers: { 'Content-Type': 'application/json', ...opts.headers },
