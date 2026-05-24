@@ -1,5 +1,6 @@
 const HOST = window.location.hostname;
-const BASE = import.meta.env.VITE_API_URL || `http://${HOST}:5000/api`;
+const IS_LOCAL = HOST === 'localhost' || HOST === '127.0.0.1' || HOST.startsWith('192.168.') || HOST.startsWith('10.');
+const BASE = import.meta.env.VITE_API_URL || (IS_LOCAL ? `http://${HOST}:5000/api` : `https://canteen-backend-zdh1.onrender.com/api`);
 
 async function req(path, opts = {}, retries = 2) {
   const ctrl = new AbortController();

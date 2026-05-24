@@ -3,7 +3,9 @@ import { io } from 'socket.io-client';
 import { useApp } from './AppContext';
 
 const SocketContext = createContext(null);
-const BACKEND = import.meta.env.VITE_WS_URL || `http://${window.location.hostname}:5000`;
+const HOST = window.location.hostname;
+const IS_LOCAL = HOST === 'localhost' || HOST === '127.0.0.1' || HOST.startsWith('192.168.') || HOST.startsWith('10.');
+const BACKEND = import.meta.env.VITE_WS_URL || (IS_LOCAL ? `http://${HOST}:5000` : `https://canteen-backend-zdh1.onrender.com`);
 
 export function SocketProvider({ children }) {
   const { dispatch, toast } = useApp();
