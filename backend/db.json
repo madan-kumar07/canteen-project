@@ -1,0 +1,744 @@
+{
+    "users": {},
+    "menu": [
+        {
+            "id": "1",
+            "name": "Vadai",
+            "price": 5,
+            "category": "Morning Snacks",
+            "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "2",
+            "name": "Bonda",
+            "price": 5,
+            "category": "Morning Snacks",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "7",
+            "name": "Tea",
+            "price": 10,
+            "category": "Morning Snacks",
+            "image": "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "8",
+            "name": "Coffee",
+            "price": 12,
+            "category": "Morning Snacks",
+            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "9",
+            "name": "Chapati",
+            "price": 10,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1565557612627-fa85cf2153fa?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "10",
+            "name": "Parotta",
+            "price": 10,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "11",
+            "name": "Curd Rice",
+            "price": 20,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1626374965325-10eb0c50d40e?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "12",
+            "name": "Sambar Rice",
+            "price": 30,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "13",
+            "name": "Veg Fried Rice",
+            "price": 60,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "14",
+            "name": "Chicken Fried Rice",
+            "price": 80,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "15",
+            "name": "Veg Noodles",
+            "price": 60,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "16",
+            "name": "Chicken Noodles",
+            "price": 80,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "17",
+            "name": "Egg Biryani",
+            "price": 50,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "18",
+            "name": "Chicken Biryani",
+            "price": 80,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "19",
+            "name": "Plain Biryani",
+            "price": 40,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "20",
+            "name": "Boiled Egg",
+            "price": 10,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "21",
+            "name": "Omelet",
+            "price": 15,
+            "category": "Lunch",
+            "image": "https://images.unsplash.com/photo-1494597564530-871f2b93ac55?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "22",
+            "name": "Panipuri (6 Pcs)",
+            "price": 30,
+            "category": "Chaat Items",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "23",
+            "name": "Bhel Puri",
+            "price": 40,
+            "category": "Chaat Items",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "24",
+            "name": "Masala Puri",
+            "price": 40,
+            "category": "Chaat Items",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "25",
+            "name": "Sev Puri",
+            "price": 40,
+            "category": "Chaat Items",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "26",
+            "name": "Aloo Puri",
+            "price": 40,
+            "category": "Chaat Items",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "27",
+            "name": "Dahi Puri",
+            "price": 40,
+            "category": "Chaat Items",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "28",
+            "name": "Vadai",
+            "price": 5,
+            "category": "Snacks",
+            "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "29",
+            "name": "Parrupu Vadai",
+            "price": 5,
+            "category": "Snacks",
+            "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "30",
+            "name": "Keerai Vadai",
+            "price": 10,
+            "category": "Snacks",
+            "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "31",
+            "name": "Onion Pakoda",
+            "price": 20,
+            "category": "Snacks",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "32",
+            "name": "Sundal",
+            "price": 15,
+            "category": "Snacks",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "33",
+            "name": "Verkadalai",
+            "price": 15,
+            "category": "Snacks",
+            "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "34",
+            "name": "Water Melon",
+            "price": 20,
+            "category": "Fresh Juices",
+            "image": "https://images.unsplash.com/photo-1587883012610-e3df17d41270?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "35",
+            "name": "Lemon Mint",
+            "price": 20,
+            "category": "Fresh Juices",
+            "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "36",
+            "name": "Ginger Lemon",
+            "price": 20,
+            "category": "Fresh Juices",
+            "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "37",
+            "name": "Veg Soup",
+            "price": 20,
+            "category": "Soup Items",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "38",
+            "name": "Mushroom Soup",
+            "price": 20,
+            "category": "Soup Items",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "39",
+            "name": "Chicken Soup",
+            "price": 20,
+            "category": "Soup Items",
+            "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "40",
+            "name": "Chapati with Veg Kuruma",
+            "price": 10,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1565557612627-fa85cf2153fa?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "41",
+            "name": "Parotta with Chicken Kuruma",
+            "price": 10,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "42",
+            "name": "Parotta with Veg Kuruma",
+            "price": 10,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "43",
+            "name": "Chapati with Chicken Kuruma",
+            "price": 10,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1565557612627-fa85cf2153fa?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "44",
+            "name": "Veg Fried Rice",
+            "price": 60,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "45",
+            "name": "Veg Noodles",
+            "price": 60,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "46",
+            "name": "Egg Fried Rice",
+            "price": 70,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "47",
+            "name": "Egg Noodles",
+            "price": 70,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "48",
+            "name": "Chicken Fried Rice",
+            "price": 80,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "49",
+            "name": "Chicken Noodles",
+            "price": 80,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "50",
+            "name": "Chicken 65",
+            "price": 50,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "51",
+            "name": "Chettinad Chicken",
+            "price": 50,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1589302168068-964664d93cb0?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "52",
+            "name": "Egg Masala",
+            "price": 20,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "53",
+            "name": "Gobi Masala",
+            "price": 40,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "54",
+            "name": "Mushroom Masala",
+            "price": 40,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "55",
+            "name": "Kal Dosai - Sambar & Chutney",
+            "price": 10,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "56",
+            "name": "Plain Dosai",
+            "price": 20,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "57",
+            "name": "Egg Dosai",
+            "price": 30,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "58",
+            "name": "Onion Dosai",
+            "price": 30,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "59",
+            "name": "Podi Dosai",
+            "price": 25,
+            "category": "Night",
+            "image": "https://images.unsplash.com/photo-1589301760014-d929f39ce9b1?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "60",
+            "name": "Chicken Wings (2 Pcs)",
+            "price": 60,
+            "category": "Starters",
+            "image": "https://images.unsplash.com/photo-1569058242253-1df34b084afa?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "61",
+            "name": "Chicken Lolipop (2 Pcs)",
+            "price": 60,
+            "category": "Starters",
+            "image": "https://images.unsplash.com/photo-1569058242253-1df34b084afa?w=500&q=80",
+            "available": false
+        },
+        {
+            "id": "62",
+            "name": "Chicken Boneless (5 Pcs)",
+            "price": 70,
+            "category": "Starters",
+            "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "63",
+            "name": "French Fries",
+            "price": 40,
+            "category": "Starters",
+            "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?w=500&q=80",
+            "available": true
+        },
+        {
+            "id": "64",
+            "name": "Gopi 65",
+            "price": 40,
+            "category": "Starters",
+            "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80",
+            "available": false
+        },
+        {
+            "name": "special kari ",
+            "price": 100,
+            "category": "Starters",
+            "image": "https://cdn.create.vista.com/api/media/small/417769586/stock-photo-closeup-spicy-home-made-non-veg-food-grilled-chicken-leg",
+            "id": "1778255650",
+            "available": true
+        },
+        {
+            "name": "kari",
+            "price": 50,
+            "category": "Starters",
+            "image": "https://thumbs.dreamstime.com/b/mutton-rogan-josh-tomato-gravy-served-plate-isolated-marble-background-side-view-singapore-food-365387369.jpg",
+            "id": "1779513320",
+            "available": true
+        }
+    ],
+    "orders": [
+        {
+            "order_id": "ORD515698",
+            "token_number": 1,
+            "items": [
+                {
+                    "available": true,
+                    "category": "Lunch",
+                    "id": "14",
+                    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500&q=80",
+                    "name": "Chicken Fried Rice",
+                    "price": 80,
+                    "quantity": 1
+                }
+            ],
+            "total_price": 80,
+            "pickup_time": "12:00 PM (Lunch)",
+            "status": "Confirmed",
+            "timestamp": 1779515698.7907941
+        },
+        {
+            "order_id": "ORD515986",
+            "token_number": 2,
+            "items": [
+                {
+                    "available": true,
+                    "category": "Morning Snacks",
+                    "id": "1",
+                    "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=80",
+                    "name": "Vadai",
+                    "price": 5,
+                    "quantity": 1
+                }
+            ],
+            "total_price": 5,
+            "pickup_time": "12:00 PM (Lunch)",
+            "status": "Confirmed",
+            "timestamp": 1779515986.0660365
+        },
+        {
+            "id": "ORD519182",
+            "order_id": "ORD519182",
+            "token": "3",
+            "token_number": 3,
+            "items": [
+                {
+                    "id": "34",
+                    "name": "Water Melon",
+                    "price": 20,
+                    "qty": 2
+                }
+            ],
+            "total": 42,
+            "total_price": 42,
+            "subtotal": 40,
+            "gst": 2,
+            "discount": 0,
+            "promo": null,
+            "payment_method": "counter",
+            "pickup_slot": "12:30 PM",
+            "pickup_time": "12:30 PM",
+            "user": "student",
+            "status": "Confirmed",
+            "placedAt": 1779519182936,
+            "timestamp": 1779519182.9361274,
+            "created_at": "2026-05-23T06:53:02Z"
+        },
+        {
+            "id": "ORD555058",
+            "order_id": "ORD555058",
+            "token": "4",
+            "token_number": 4,
+            "items": [
+                {
+                    "id": "10",
+                    "name": "Parotta",
+                    "price": 10,
+                    "qty": 4
+                }
+            ],
+            "total": 42,
+            "total_price": 42,
+            "subtotal": 40,
+            "gst": 2,
+            "discount": 0,
+            "promo": null,
+            "payment_method": "online",
+            "pickup_slot": "ASAP",
+            "pickup_time": "ASAP",
+            "user": "student",
+            "status": "Cancelled",
+            "placedAt": 1779555058432,
+            "timestamp": 1779555058.4326873,
+            "created_at": "2026-05-23T16:50:58Z"
+        },
+        {
+            "id": "ORD555104",
+            "order_id": "ORD555104",
+            "token": "5",
+            "token_number": 5,
+            "items": [
+                {
+                    "id": "10",
+                    "name": "Parotta",
+                    "price": 10,
+                    "qty": 3
+                }
+            ],
+            "total": 32,
+            "total_price": 32,
+            "subtotal": 30,
+            "gst": 2,
+            "discount": 0,
+            "promo": null,
+            "payment_method": "wallet",
+            "pickup_slot": "ASAP",
+            "pickup_time": "ASAP",
+            "user": "student",
+            "status": "Confirmed",
+            "placedAt": 1779555104842,
+            "timestamp": 1779555104.8423357,
+            "created_at": "2026-05-23T16:51:44Z"
+        },
+        {
+            "id": "ORD557977",
+            "order_id": "ORD557977",
+            "token": "6",
+            "token_number": 6,
+            "items": [
+                {
+                    "id": "7",
+                    "name": "Tea",
+                    "price": 10,
+                    "qty": 1
+                }
+            ],
+            "total": 11,
+            "total_price": 11,
+            "subtotal": 10,
+            "gst": 1,
+            "discount": 0,
+            "promo": null,
+            "payment_method": "online",
+            "pickup_slot": "ASAP",
+            "pickup_time": "ASAP",
+            "user": "student",
+            "status": "Cancelled",
+            "placedAt": 1779557977989,
+            "timestamp": 1779557977.9896462,
+            "created_at": "2026-05-23T17:39:37Z"
+        },
+        {
+            "id": "ORD558018",
+            "order_id": "ORD558018",
+            "token": "7",
+            "token_number": 7,
+            "items": [
+                {
+                    "id": "2",
+                    "name": "Bonda",
+                    "price": 5,
+                    "qty": 2
+                }
+            ],
+            "total": 6,
+            "total_price": 6,
+            "subtotal": 10,
+            "gst": 1,
+            "discount": 5,
+            "promo": "FIRST50",
+            "payment_method": "online",
+            "pickup_slot": "1:00 PM",
+            "pickup_time": "1:00 PM",
+            "user": "student",
+            "status": "Cancelled",
+            "placedAt": 1779558018650,
+            "timestamp": 1779558018.6502194,
+            "created_at": "2026-05-23T17:40:18Z"
+        },
+        {
+            "id": "ORD558037",
+            "order_id": "ORD558037",
+            "token": "8",
+            "token_number": 8,
+            "items": [
+                {
+                    "id": "2",
+                    "name": "Bonda",
+                    "price": 5,
+                    "qty": 2
+                }
+            ],
+            "total": 11,
+            "total_price": 11,
+            "subtotal": 10,
+            "gst": 1,
+            "discount": 0,
+            "promo": null,
+            "payment_method": "online",
+            "pickup_slot": "1:00 PM",
+            "pickup_time": "1:00 PM",
+            "user": "student",
+            "status": "Confirmed",
+            "placedAt": 1779558037119,
+            "timestamp": 1779558037.119235,
+            "created_at": "2026-05-23T17:40:37Z"
+        },
+        {
+            "id": "ORD603870",
+            "order_id": "ORD603870",
+            "token": "9",
+            "token_number": 9,
+            "items": [
+                {
+                    "id": "13",
+                    "name": "Veg Fried Rice",
+                    "price": 60,
+                    "qty": 2
+                },
+                {
+                    "id": "2",
+                    "name": "Bonda",
+                    "price": 5,
+                    "qty": 1
+                }
+            ],
+            "total": 125,
+            "total_price": 125,
+            "subtotal": 125,
+            "gst": 0,
+            "discount": 0,
+            "promo": null,
+            "payment_method": "counter",
+            "pickup_slot": "asap",
+            "pickup_time": "asap",
+            "user": "student",
+            "status": "Cancelled",
+            "placedAt": 1779603870456,
+            "timestamp": 1779603870.4565,
+            "created_at": "2026-05-24T06:24:30Z"
+        }
+    ],
+    "status": "Low Rush"
+}
